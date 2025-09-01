@@ -101,8 +101,4 @@ This project demonstrates that rigorous benchmarking is as important as model bu
 - **Stacked LSTM** effectively models short-run dynamics, achieving the best performance.  
 - **Attention-enhanced LSTM** improved after fixes but still underperformed, underscoring that more complex models are not inherently better.  
 
-The broader takeaway: **model selection should follow data characteristics, not assumptions about complexity.** Gold prices behave like a random walk, limiting the benefits of attention mechanisms. By testing multiple architectures, documenting failures as well as successes, and interpreting results in context, this project highlights not only predictive performance but also research rigor and critical thinking.  
-
-This work is not just about forecasting gold — it’s a demonstration of how to conduct applied machine learning research thoughtfully, with purpose and transparency.  
-
 ---
